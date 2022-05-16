@@ -1,7 +1,9 @@
 package com.example.di
 
 import com.example.repository.HeroRepository
+import com.example.repository.HeroRepositoryAlterNative
 import com.example.repository.HeroRepositoryImpl
+import com.example.repository.HeroRepositoryImpltAlternative
 import org.koin.dsl.module
 
 val koinModule = module {
@@ -9,5 +11,9 @@ val koinModule = module {
 
     single<HeroRepository> {
         HeroRepositoryImpl()
+    }
+
+    single<HeroRepositoryAlterNative> {
+        HeroRepositoryImpltAlternative()
     }
 }
