@@ -1,1 +1,1 @@
-web: build/install/com.example.borutoserver/bin/com.example.borutoserver
+web: build/install/com.example.borutoabhi-server/bin/com.example.borutoabhi-server
